@@ -1,3 +1,13 @@
 .env
 CLAUDE.md
-venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Derived data: regenerable from a pinned config + seed, too large for git.
+cache/
+results/runs/*.trec
+
+.claude/
